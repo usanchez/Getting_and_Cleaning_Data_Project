@@ -24,7 +24,7 @@ This script doesn't depend on any other script, but needs the following librarie
 
 Follow these steps to be able to replicate the project:
 
-1. Download the data from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip and unzip it.  It will create a folder called ```UCI HAR Dataset'''.
+1. Download the data from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip and unzip it.  It will create a folder called ```UCI HAR Dataset```.
 2. The folder ```UCI HAR Dataset``` and the script ```run_analysis.R``` must be on the same folder level (script and folder on the same parent directory).
 3. Set the parent directory as the working directory using the setwd() function.
 4. Run ```source("run_analysis.R")```. It will generate a new file ```tiny_data.txt``` in the working directory.
